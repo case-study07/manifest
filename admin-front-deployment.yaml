@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: case-study
+  name: admin-frontend
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: case-study
+      app: admin-frontend
   template:
     metadata:
       labels:
-        app: case-study
+        app: admin-frontend
     spec:
       containers:
       - image: docker.io/raityupiyo/cs-admin-frontend:latest 
-        name: case-study
+        name: admin-frontend
         ports:
         - containerPort: 80
