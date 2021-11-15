@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: end-backend
+spec:
+  replicas: 2
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: end-backend
+  template:
+    metadata:
+      labels:
+        app: end-backend
+    spec:
+      containers:
+      - image: docker.io/raityupiyo/cs-end-backend:latest 
+        name: end-backend
+        ports:
+        - containerPort: 9000
