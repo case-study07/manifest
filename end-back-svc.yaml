@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: end-backend
 spec:
+  type: LoadBalancer
   ports:
   - port: 9200
     targetPort: 9000

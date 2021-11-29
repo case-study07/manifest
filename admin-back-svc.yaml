@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: admin-backend
 spec:
+  type: LoadBalancer
   ports:
   - port: 9100
     targetPort: 9000
