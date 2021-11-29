@@ -5,7 +5,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 9100
+  - port: 80
     targetPort: 9000
   selector:
     app: admin-backend
