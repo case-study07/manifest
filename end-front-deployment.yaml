@@ -14,7 +14,7 @@ spec:
         app: end-frontend
     spec:
       containers:
-      - image: docker.io/raityupiyo/cs-end-frontend:63fbfcfa29d2e8b698b001a077535f1fb55254f9 
+      - image: docker.io/raityupiyo/cs-end-frontend:3 
         name: end-frontend
         ports:
         - containerPort: 3000

@@ -14,7 +14,7 @@ spec:
         app: end-backend
     spec:
       containers:
-      - image: docker.io/raityupiyo/cs-end-backend:faed35323e661c6bfd5761688685febe0b215c43
+      - image: docker.io/raityupiyo/cs-end-backend:4
         name: end-backend
         ports:
         - containerPort: 9000
