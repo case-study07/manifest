@@ -17,4 +17,4 @@ spec:
       - image: docker.io/raityupiyo/cs-end-frontend:63fbfcfa29d2e8b698b001a077535f1fb55254f9 
         name: end-frontend
         ports:
-        - containerPort: 80
+        - containerPort: 3000
