@@ -14,7 +14,7 @@ spec:
         app: admin-frontend
     spec:
       containers:
-      - image: docker.io/raityupiyo/cs-admin-frontend:latest 
+      - image: docker.io/raityupiyo/cs-admin-frontend:72ff8f9c871f6e2af1f9d939a6e35deb7008697e 
         name: admin-frontend
         ports:
         - containerPort: 80
