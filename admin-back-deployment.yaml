@@ -14,7 +14,7 @@ spec:
         app: admin-backend
     spec:
       containers:
-      - image: docker.io/raityupiyo/cs-admin-backend:4
-        name: admin-backend
-        ports:
-        - containerPort: 9000
+        - image: docker.io/raityupiyo/cs-admin-backend:6
+          name: admin-backend
+          ports:
+            - containerPort: 9000
